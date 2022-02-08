@@ -1,3 +1,28 @@
+# Table of Contents
+* [Setup](#project-setup)
+* [React references](#getting-started-with-create-react-app)
+
+
+# Project setup
+## Flask API
+Go to **api/** directory and set up a Python Virtual Environment:<br>
+`cd api/ && python3 -m venv venv`<br>
+Activate the environment and install the API<br>
+`. venv/bin/activate`<br>
+`python3 -m pip install -e .`<br>
+To run the API execute the command (within the Virtual Environment)
+`python3 -m flask run`
+
+## React frontend
+Run the following command from the directory where package.json is located<br>
+`npm install`<br>
+In order to launch the website, start the API and execute<br>
+`npm start`<br><br>
+Alternatively, open two terminal windows and run<br>
+`yarn start-api`<br>
+and <br>
+`yarn start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
