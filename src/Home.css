@@ -1,0 +1,12 @@
+.covidInfo{
+    font-size: 30px;
+    text-align: center;
+}
+
+.newCasesNumber{
+    color: #175699;
+}
+
+.newDeathsNumber{
+    color: crimson;
+}
